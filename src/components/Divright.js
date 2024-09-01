@@ -16,11 +16,11 @@ function Divright(props) {
 
       <div className="texts w-[30%] md:w-[60%] flex flex-col gap-y-4 md:gap-y-12 justify-center items-center">
         <p className="text-xl sm:text-base">
-          <b className="text-2xl md:text-xl">{props.title}</b> {props.desc}
+          <b className="text-6xl md:text-xl">{props.title}</b> {props.desc}
         </p>
 
         <button
-          className="border px-10 py-2 rounded-full hover:bg-[#2F3334] hover:text-[#EEEEE6] duration-500 text-2xl border-[#2F3334]
+          className="border px-10 py-2 rounded-full hover:bg-black hover:text-[#EEEEE6] duration-500 text-2xl border-black
         "
         >
           <a href="https://github.com/ATIKSH09">Explore</a>

@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    font-family: 'Poppins', sans-serif;
-    background-color: #2F3334;
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+}
+.navs{
+    font-family: 'Android 7', sans-serif;
 }
